@@ -1,0 +1,31 @@
+#div1{
+    color: aqua;
+}
+#hardware{
+    color:palevioletred
+}
+table, th, td {
+    border:1px solid black;
+  }
+a{
+    text-decoration: none;
+    -webkit-text-fill-color: black;
+  }
+td{
+    text-align: center;
+    
+}
+body{
+    font-family:'Source Sans Pro Topnav', sans-serif;
+
+}
+#menu1{
+    color: antiquewhite;
+    background-color: #FFF4A3;
+    width:300px;
+    margin:auto;
+}
+#placa_mae1{
+    font-family: sans-serif;
+    
+}
