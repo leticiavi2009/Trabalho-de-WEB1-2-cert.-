@@ -1,31 +1,67 @@
-#div1{
-    color: aqua;
-}
 #hardware{
-    color:palevioletred
+    color:rgb(255, 255, 255);
+    font-family: sans-serif;
+    text-align: center;
+    color: aliceblue;
+}
+
+#hardware p{
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin: auto;
+    
+
 }
 table, th, td {
-    border:1px solid black;
+    border: 1px solid black;
   }
 a{
     text-decoration: none;
-    -webkit-text-fill-color: black;
+    -webkit-text-fill-color: rgb(235, 217, 235);
   }
 td{
     text-align: center;
-    
+    width: 50%;
+}
+.index{
+    width: 31.33%;
+}
+.menu2{
+    width: 47%;
+}
+.cadastro_index{
+    width: 12%;
 }
 body{
     font-family:'Source Sans Pro Topnav', sans-serif;
-
+    background-color: rgb(68, 50, 68) ;
 }
+
 #menu1{
     color: antiquewhite;
     background-color: #FFF4A3;
     width:300px;
     margin:auto;
 }
-#placa_mae1{
-    font-family: sans-serif;
+#cadastro_pagina{
+    text-align: center;
+
     
+}
+#formulario_cadastro{
+    border: 2px solid black;
+    border-radius: 40px;
+    width: 23%;
+    height: 500px;
+
+}
+div#formulario_cadastro_borda {
+    padding-left: 42%;
+    color: aliceblue;
+
+}
+td:hover{
+    background-color:rgb(97, 75, 97);
 }
