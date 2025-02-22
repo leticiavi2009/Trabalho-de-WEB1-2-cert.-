@@ -34,6 +34,9 @@ td{
 .cadastro_index{
     width: 12%;
 }
+#navbar-example2{
+    background-color: rgb(68, 50, 68) ;
+}
 body{
     font-family:'Source Sans Pro Topnav', sans-serif;
     background-color: rgb(68, 50, 68) ;
