@@ -1,8 +1,9 @@
 #hardware{
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     font-family: sans-serif;
     text-align: center;
-    color: aliceblue;
+    padding: top 5%;
+    
 }
 
 #hardware p{
@@ -11,20 +12,21 @@
     padding-left: 25%;
     padding-right: 25%;
     margin: auto;
-    
+    padding-top:5%
 
 }
-table, th, td {
-    border: 1px solid black;
-  }
+#home{
+    color:rgb(0, 0, 0);
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 15%;
+}
 a{
     text-decoration: none;
-    -webkit-text-fill-color: rgb(235, 217, 235);
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    margin-inline:90px;
   }
-td{
-    text-align: center;
-    width: 50%;
-}
+
 .index{
     width: 31.33%;
 }
@@ -35,23 +37,43 @@ td{
     width: 12%;
 }
 #navbar-example2{
-    background-color: rgb(68, 50, 68) ;
+    background-color: #fff67c;
+    
+
 }
 body{
     font-family:'Source Sans Pro Topnav', sans-serif;
-    background-color: rgb(68, 50, 68) ;
+    background-size: cover;
+    background-image: url(imagens/fundo.jpg);
+    
 }
+
+#itens{
+    color:rgb(248, 255, 157);
+    padding-top: 10%;
+    size: 100px;
+}
+
+tr:nth-child(even) {
+    background-color: #cbecff;
+  }
 
 #menu1{
     color: antiquewhite;
-    background-color: #FFF4A3;
     width:300px;
-    margin:auto;
+    
 }
 #cadastro_pagina{
     text-align: center;
-
+}
+#menu{
+    margin-inline:80px;
+    background-color:rgb(89, 167, 230);
+    background-size: 100%;
     
+}
+.nav-item{
+    color:black;
 }
 #formulario_cadastro{
     border: 2px solid black;
@@ -60,11 +82,37 @@ body{
     height: 500px;
 
 }
+#palavra{
+    color:#000000;
+    margin-inline:70px;
+}
 div#formulario_cadastro_borda {
     padding-left: 42%;
     color: aliceblue;
 
 }
-td:hover{
-    background-color:rgb(97, 75, 97);
+input {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px
+}
+#cadastro1{
+    padding-left:37%;
+    padding-bottom: 30%;
+    padding-top: 10%;
+    
+}
+#enter{
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #0e0a0a;
+    border-radius: 2px
+
+}
+#titulo1{
+    font-size:30px;
+    padding-left: 20%;
+    color:#000000;
 }
