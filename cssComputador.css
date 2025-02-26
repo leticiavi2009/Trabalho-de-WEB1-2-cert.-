@@ -15,6 +15,14 @@
     padding-top:5%
 
 }
+
+.nave2{
+    padding-inline: 270px;
+}
+
+.nave1{
+    padding-inline: 100px;
+}
 #home{
     color:rgb(0, 0, 0);
     font-family: sans-serif;
@@ -37,14 +45,13 @@ a{
     width: 12%;
 }
 #navbar-example2{
-    background-color: #fff67c;
-    
-
+    background-color: #FEBD3F;
 }
 body{
     font-family:'Source Sans Pro Topnav', sans-serif;
     background-size: cover;
     background-image: url(imagens/fundo.jpg);
+    background-size: 100%;
     
 }
 
@@ -61,14 +68,14 @@ tr:nth-child(even) {
 #menu1{
     color: antiquewhite;
     width:300px;
-    
 }
 #cadastro_pagina{
     text-align: center;
 }
 #menu{
+    size:70px;
     margin-inline:80px;
-    background-color:rgb(89, 167, 230);
+    background-color:#4596FF;
     background-size: 100%;
     
 }
@@ -115,4 +122,17 @@ input {
     font-size:30px;
     padding-left: 20%;
     color:#000000;
+}
+
+.conteudo {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E4ECFF;
+
+}
+.itens{
+    margin-top: 8%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
