@@ -17,7 +17,7 @@
 }
 
 .nave2{
-    padding-inline: 270px;
+    padding-inline: 250px;
 }
 
 .nave1{
@@ -74,7 +74,7 @@ tr:nth-child(even) {
 }
 #menu{
     size:70px;
-    margin-inline:80px;
+    margin-inline:75px;
     background-color:#4596FF;
     background-size: 100%;
     
